@@ -43,3 +43,17 @@ body {
   padding: 20px;
   text-align: right;
 }
+
+.product-description-container {
+  height: 239px;
+}
+
+.main-text {
+  font-size: 30px;
+  margin-bottom: 18px;
+  padding-top: 128px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+}
