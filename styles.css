@@ -14,3 +14,9 @@ body {
 .navbar-top {
   padding-top: 31px;
 }
+
+.menu-right {
+  font-family: Arial sans-serif;
+  font-size: 14px;
+  color: #333;
+}
