@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/background.png");
+}
+
+#logo {
+  width: 154px;
+  margin-top: 14px;
+}
