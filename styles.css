@@ -48,12 +48,22 @@ body {
   height: 239px;
 }
 
+.main-text,
+.sub-main-text {
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
 .main-text {
   font-size: 30px;
   margin-bottom: 18px;
   padding-top: 128px;
-  font-family: Roboto, sans-serif;
-  color: #fff;
   font-weight: 300;
-  text-align: center;
+}
+
+.sub-main-text {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
