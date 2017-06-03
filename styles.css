@@ -6,7 +6,40 @@ body {
   background-image: url("images/background.png");
 }
 
+.page {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
 #logo {
+  float: left;
+}
+
+#logo-img {
   width: 154px;
   margin-top: 14px;
+}
+
+.navbar-top {
+  padding-top: 31px;
+}
+
+.nav-container {
+  width: 100%;
+}
+
+.menu-right {
+  float: right;
+}
+
+.nav-link-text {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-family: Roboto, sans-serif;
+  color: #728993;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 20px;
+  text-align: right;
 }
