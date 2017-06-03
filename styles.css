@@ -57,7 +57,7 @@ body {
 }
 
 .main-text {
-  font-size: 30px;
+  font-size: 37px;
   margin-bottom: 18px;
   padding-top: 128px;
   font-weight: 300;
@@ -68,4 +68,10 @@ body {
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
+}
+
+@media (max-width: 1000px) {
+  .main-text {
+    font-size: 30px;
+  }
 }
