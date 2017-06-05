@@ -4,11 +4,13 @@
 
 body {
   background-image: url("images/background.png");
+  background-size: cover;
 }
 
 .page {
   max-width: 940px;
   margin: 0 auto;
+  height: 1122px;
 }
 
 #logo {
@@ -70,16 +72,33 @@ body {
   letter-spacing: 1px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
+  .page {
+    height: 949px;
+  }
+
   .main-text {
     font-size: 30px;
+  }
+
+  .image-container {
+    max-width: 728px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hide-small {
+    display: none;
   }
 }
 
 .image-container {
   width: 100%;
+  margin-top: 24px;
+  max-width: 940px;
 }
 
 img {
   max-width: 100%;
+  vertical-align: middle;
 }
